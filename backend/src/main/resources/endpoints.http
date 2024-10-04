@@ -1,0 +1,29 @@
+
+@request = { "firstInteger": 3,"secondInteger": 6 }
+@host=localhost:8081 
+
+### Addition
+POST http://{{host}}/calculate/v1/add HTTP/1.1
+Content-Type: application/json
+
+{{request}}
+
+
+### subtract
+POST http://{{host}}/calculate/v1/subtract HTTP/1.1
+Content-Type: application/json
+
+{{request}}
+
+### multiply
+POST http://{{host}}/calculate/v1/multiply HTTP/1.1
+Content-Type: application/json
+
+{{request}}
+
+### divide
+POST http://{{host}}/calculate/v1/divide HTTP/1.1
+Content-Type: application/json
+
+{{request}}
+

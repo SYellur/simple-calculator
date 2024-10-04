@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: simple-calculator-backend
+server:
+    port: 8081
